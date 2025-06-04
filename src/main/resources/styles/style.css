@@ -1,0 +1,67 @@
+.root {
+    -fx-background-color: linear-gradient(to bottom, #fef9e7, #f5e1a4);
+    -fx-font-family: "Georgia", serif;
+    -fx-font-size: 14px;
+     -fx-background-image: url("/images/bib.jpg");
+        -fx-background-size: cover;
+        -fx-background-position: center center;
+        -fx-background-repeat: no-repeat;
+}
+
+.title {
+    -fx-font-size: 28px;
+    -fx-text-fill: goldenrod;
+    -fx-font-weight: bold;
+    -fx-effect: dropshadow(one-pass-box, #8b5e3c, 5, 0.5, 2, 2);
+    -fx-padding: 10 0 20 0;
+}
+
+.label {
+    -fx-text-fill: beige;
+    -fx-font-size: 16px;
+}
+
+.button {
+    -fx-background-color: linear-gradient(#ffd700, #b8860b);
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 12;
+    -fx-padding: 10 25;
+    -fx-border-color: #8b5e3c;
+    -fx-border-width: 2;
+    -fx-border-radius: 12;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(gaussian, #888, 4, 0.4, 2, 2);
+}
+.title-button {
+    -fx-background-color: linear-gradient(#ffd700, #b8860b);
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-size: 18px;
+    -fx-padding: 15 30;
+    -fx-background-radius: 15;
+    -fx-border-color: #8b5e3c;
+    -fx-border-width: 2;
+    -fx-border-radius: 15;
+    -fx-cursor: default;
+    -fx-effect: dropshadow(gaussian, #888, 5, 0.4, 2, 2);
+}
+.form-label {
+     -fx-text-fill: white; /* Texte clair */
+     -fx-font-size: 15px;
+     -fx-font-weight: bold;
+     -fx-effect: dropshadow(one-pass-box, black, 3, 0, 1, 1);
+ }
+/* style.css */
+
+.form-label {
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+}
+
+.text-field {
+    -fx-background-color: #f2f2f2;
+    -fx-border-color: #ccc;
+    -fx-border-radius: 5px;
+}
+
